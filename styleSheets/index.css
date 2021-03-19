@@ -1,0 +1,345 @@
+
+.left
+{
+    margin: 0px;
+}
+#lsform
+{
+    display: none;
+    position: fixed;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color : rgba(255,255,255,0.5);
+    box-shadow: 5px 5px 10px gray;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.side-bar
+{
+    padding-left: 30px;
+}
+
+.side-bar  div
+{
+    padding: 0px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    transition: 500ms ease;
+    width: 100%;
+    padding-left: 10px;
+}
+.side-bar > label
+{
+    width: 100%;
+}
+.side-bar  div:hover
+{
+    background: #ccc;
+    box-shadow: 0px 0px 5px ;
+}
+.categories{
+
+    height: 50px;
+    width: 100%;
+    background-color:lightgray;
+    overflow: hidden;
+  }
+nav
+{
+      display: flex;
+      flex-wrap: wrap;
+}
+nav a 
+{
+       
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        padding: 10px 27px;
+        text-align: center;
+        margin: 0;
+
+}
+
+
+body
+{
+    overflow: visible;
+    margin-top:0px;
+    height:100%;
+    transition: 2s ease;
+    top: 20%;
+    user-select: none;
+
+}
+.search-bar div
+{
+    display: inline;
+}
+.search-bar  div  input
+{
+    width: 90%;
+    padding: 10px;
+    height: 35px;
+    border: none;
+    color: black;
+ 
+}
+.search-bar div input:focus
+{
+    border: 2px solid dodgerblue;
+}
+.search-bar div input:focus
+{
+    outline: none;
+}
+.search-bar  div  button
+{
+    margin-left: -5px;
+    vertical-align: bottom;
+    border: none;
+    background: white;
+    height: 35px;
+}
+.head-cat-div
+{
+    width: -webkit-fill-available;
+    position: fixed;
+    z-index: 10;
+    
+}
+.header
+{
+    width: -web-fill-available;
+    margin: 0px;
+    background: rgb(1,36,86);
+    color: white;
+    font-size: large;
+    z-index: 2;
+    cursor: pointer;
+}
+.header>div
+{
+    
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#foo-align
+{
+    margin: 10px;
+
+}
+
+.product>div
+{
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;
+    margin: 5px 0px;
+}
+.product > img
+{
+    margin: 0px;
+    padding: 0px;
+    transition: 500ms ease;
+}
+.product > button
+{
+    border:1px solid blue ;
+    width: 100%;
+    
+}
+.product #pname
+{
+    height: 40px;
+    overflow: hidden;
+}
+.product
+{   
+    height: 310px;
+    /*min-width: 190px;*/
+    max-width: 250px;
+    display: inline-block;
+    box-shadow: 0px 0px 5px grey;
+    text-align: left;
+    font-size: 20px ;
+    cursor: pointer;
+    background-repeat:round ;
+    transition: 500ms ease;
+}
+
+#name
+{
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+
+.align-top
+{
+    top: 10px;
+    text-align: center;
+}
+.product>img
+{
+    margin: 5px 0px;
+}
+ .bedsofa> div > div >img{
+    width: 100%;
+    height: 80%;
+    transition: 800ms ea;
+} 
+
+.bedsofa > div >div >div >div, .category-display > div >div >a >div >div
+{
+    font-size: medium;
+    font-weight: lighter;
+    color: gray;
+}
+
+.bedsofa > div> div >div,.category-display > div >div > a >div
+{
+    font-size: x-large;
+    
+    text-align: center;
+    border-top: 2px solid gray;
+
+}
+.category-display > div > div 
+{
+    text-align: center;
+    box-shadow: 0px 0px  10px black;
+    margin: 10px auto;
+    max-width: 250px;
+}
+.category-display > div > div > a >img
+{
+    width: 150px;
+    height: 170px;
+}
+
+.bedsofa >div> div
+{
+display: inline-block;
+ 
+ height: 400px;
+ box-shadow: 5px 5px 20px grey;
+
+}
+.bedsofa
+{
+    margin: 20px auto;
+} */
+.categories
+{
+    height: 40px;
+    background-color:#455fef;
+    color: white;
+    font-size: 30px;
+    margin: 5px 0px 0px 0px;
+    padding-top: 2px;
+    padding-left: 20px ;
+    border-radius: 5px;
+    }
+
+
+.main-content
+{
+    margin-top: 10px;
+    z-index: 1;
+    
+}
+
+
+.container
+{
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 7px;
+  }
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    background-color: #333;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background :  grey;
+    box-shadow: 0px 2px 5px gray;
+    border-radius: 10px;
+  }
+  
+  abbr[data-original-title], abbr[title]
+{
+    text-decoration: none;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.carousel
+{
+    margin: auto 70px;
+} 
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+    
+}
+
+.dfmlogo
+{
+    transform: scaleY(1.5);
+}
+.cart-icon > div
+{
+    display: inline-block;
+    min-width: 12px;
+    height: 12px;
+    vertical-align: top;
+    margin-top: -3px;
+    margin-left: -7px;
+    border-radius: 10px;
+    text-align: center;
+    background: red;
+    color: white;
+    font-size: 12px;
+}
+.cart-icon
+{
+    font-size:30px;
+}
+@media (min-width :992px)
+{
+    .product
+    {
+        margin: 30px 15px ;
+        
+    }
+}
+.comp-name
+{
+    margin-top: 0px;
+}
+.ll-slider-inner{margin-left: 10px; width: 200px; display: inline-block;transition: 400ms ease;box-shadow: 0px 0px 5px black;
+
+}
+
+@media screen and (max-width: 576px)
+{
+    .carousel
+    {
+        margin: auto;
+    }
+}

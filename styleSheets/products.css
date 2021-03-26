@@ -1,0 +1,118 @@
+
+.head-cat-div{top: 0px;}
+*{
+    font-size: medium;
+}
+#dpImage
+{
+    width: 350px ;
+    height: 350px;
+    border: 1px solid;
+}
+#prdname
+{
+    color: #2a2aff;
+    vertical-align: bottom;
+}
+#prdname>span
+{
+    color: rgb(168, 21, 21);
+
+    font-size: x-large;
+    font-weight: bold;
+}
+#dp-name-div
+{
+    position: relative;
+    left: 40px;
+}
+#otherImages
+{
+    margin: 5% 0px;   
+    font-size: medium;
+
+}
+
+
+#otherImages>div , #otherImages>div>img
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0px 5px;
+    border: 2px solid blue;
+    box-shadow: 5px 5px 20px rgb(34,34, 34);
+
+}
+#prodDesc>span, #comment-area>span 
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#prodDesc>div 
+{
+    margin: 20px;
+}
+#comment-area> div:hover
+{
+    overflow-y: auto;
+}
+
+#comment-area> div>div
+{
+    padding: 10px;
+}
+#comment-area> div
+{
+    transition: 800ms ease-in-out;
+    margin: 20px;
+    overflow-y: hidden;
+    min-width: 300px;
+    width: 45%;
+ 
+}
+#comment-area>div >input
+{
+    width: 73%;
+}
+#comment-box
+{
+    min-height: 200px;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.spotlight > img
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.spotlight
+{
+    text-decoration: none;
+}
+
+.product-detail
+{
+    margin-top: 40px;
+}
+
+
+
+.star
+{
+    
+    transition: 100ms ease;
+    color: gray;
+    cursor: pointer;
+    font-size: 50px;
+    text-shadow: 0mm 1px 0px black;    
+}
+
+.checked
+{
+    color: gold;
+}

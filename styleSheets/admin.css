@@ -1,0 +1,99 @@
+.mar-pad{
+    margin: 20px 20px;
+    padding: 5px 10px;
+}
+
+body{
+  background-image: url("../pics/adminPageBg.jpg") .5;
+}
+
+.showToggle{
+  display: none;
+}
+.border {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    /* margin: 6px; */
+  }
+  .div-boxes{
+      margin: 20px 35px;
+      padding-top: 30px;
+      background: #2a2a2a;
+      height: 150px;
+      
+  }
+  .more-tag1{
+        float: right;
+        margin-top: 18%;
+  }
+  .more-tag{
+        float: right;
+        margin-top: 8%;
+    }
+  .more-btn{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+  }
+  .form-popup {
+    display: none;
+    position: fixed;
+    width: 30%;
+    bottom: 5%;
+    left: 20%;
+    right: 20%;
+    background-color: #ddd;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=number]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=number]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,92 @@
+
+.column 
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  background-color: rgb(1,36,86);
+  height: 50%;
+  text-align: center;
+  font-size: small;
+}
+
+#cate .dropdown a:hover 
+{
+  text-decoration: none;
+}
+
+#cate
+{
+  display: flex; 
+  margin: 0px;
+  background:rgb(1,36,86);
+}
+#cate a
+{ 
+  font-size: medium; 
+  text-transform: uppercase; 
+  color: white; 
+}
+
+#cate > div 
+{
+    text-align: center;
+    padding: 10px 0px;
+    transition: 400ms ease;
+    cursor: pointer;
+}
+#cate>div:hover
+{
+  background-color: #1a488a;
+  box-shadow: 0px 0px 10px black;
+}
+
+
+#cate .dropdown-menu .column>div
+{
+  padding: 10px;
+  background-color: #1a488a;
+  cursor:pointer;  
+  transition: 400ms ease;
+}
+
+#cate .dropdown-menu .column> div:hover
+{
+  background-color: rgb(1,36,86);
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px white
+}
+
+#cate{display: flex; margin: 0px; background:rgb(1,36,86);}
+#cate a{ font-size: small; text-transform: uppercase; color: white; }
+#cate .dropdown-menu
+{
+  width: 600px;
+}
+.show
+{
+  display: block;
+}
+
+@media screen and (max-width: 576px)
+{
+  .to-hide
+  {
+      display: none;
+  }
+  #cate > div
+  {
+    padding-bottom: 10px;
+  }
+ #cate .dropdown-menu
+  {
+    height: 500px;
+    overflow-y: scroll;
+    width: 200px;
+  }
+  .column
+  {
+    width: 100%;
+    height: auto;
+  }
+}

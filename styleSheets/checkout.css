@@ -1,0 +1,63 @@
+#username , #pswrd
+{
+    border: none;
+    border-bottom: 3px solid gray;
+    border-radius: unset;
+    transition-delay: 100ms ;
+}
+#username:focus, #pswrd:focus
+{
+    outline: none;
+    border-color: dodgerblue;
+}
+
+.checkout-login-btn
+{
+    width: 50%;
+    
+    position: relative;
+    right: -50%;
+}
+
+ .main-content 
+{
+    width: 100%;
+    height: auto;
+}
+
+.del-add
+{
+    display: block;
+    width: 100%;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    margin: 20px 0px;
+    height: 50px;
+    background: #007bff;
+    color: white    ;
+} 
+.advdiv
+{
+    background: url('../pics/5654252.png');
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0px 2px 5px black;
+    color: whitesmoke;
+}
+.container > .row:nth-child(odd)
+{
+    background-color: whitesmoke;
+}
+
+#saveadd{
+    max-height: 100px;
+    overflow-y: scroll;
+}
+.abc:hover{
+    background-color: lightgrey;
+}
+
+@media screen and (max-width:576px)
+{
+    .advdiv{height: 400px;}
+}

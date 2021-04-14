@@ -1,0 +1,81 @@
+.header{
+  
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(gold,yellow);
+    align-items:center;
+}
+
+.header > div
+{
+    margin-top: 20px;
+}
+
+#logo{
+
+    height: 60px;
+    width: 70px;
+}
+#name{
+
+    font-size: 30px;
+}
+#search input[type=text]{
+
+    height: 30px;
+    width: 570px;    
+}
+#search button{
+
+    margin: -4px;
+    height: 30px;
+    width: 30px;
+}
+#mybtn{
+
+    height: 30px; 
+    width: 40px;
+}
+.cart{
+    padding-left: 40px;
+    align-self: center;
+}
+.categories{
+
+    height: 50px;
+    width: 100%;
+    background-color:lightgray;
+    overflow: hidden;
+  }
+nav
+{
+      display: flex;
+      flex-wrap: wrap;
+}
+nav a 
+{
+       
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        padding: 10px 27px;
+        text-align: center;
+        margin: 0;
+
+}
+    
+
+.scrollimg{
+
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100%;
+    margin-left: 300px;
+}
+#contain{
+
+    margin: 20px 20px;
+    position: absolute;
+    width:100%;
+   
+}

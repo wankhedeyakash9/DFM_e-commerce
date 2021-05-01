@@ -1,0 +1,177 @@
+@media(max-width:600px)
+{
+    .header{
+  
+        height: 12%;
+        width: 100%;
+        background-image: linear-gradient(lightblue,blue);
+    }
+    #logo{
+
+        height: 50px;
+        width: 50px;
+    }
+    #name{
+    
+        font-size: 30px;
+    }
+    #mybtn{
+
+        height: 30px; 
+        width: 60px;
+    }
+    
+    .categories{
+
+        height: 50px;
+        width: 100%;
+        background-color:lightgray;
+        overflow: hidden;
+      }
+}
+@media(min-width:601px) and (max-width:960px)
+{
+    .header{
+  
+        height: 14%;
+        width: 100%;
+        background-image: linear-gradient(lightblue,lightgray);
+    }
+    #logo{
+
+        height: 50px;
+        width: 50px;
+    }
+    #name{
+    
+        font-size: 28px;
+    }   
+.search{
+
+    align-items: right;
+}   
+#search input[type=text]{
+
+    height: 30px;
+    width: 170px;    
+}
+#search button{
+
+    margin: -4px;
+    height: 30px;
+    width: 30px;
+}
+    #mybtn{
+
+        height: 30px; 
+        width: 60px;
+    }
+
+    .cart{
+        padding-left: 20px;
+        align-self: center;
+    }
+    .categories{
+
+        height: 50px;
+        width: 100%;
+        background-color:lightgray;
+        overflow: hidden;
+      
+    }
+    .categories{
+
+        height: 50px;
+        width: 100%;
+        background-color:lightgray;
+        overflow: hidden;
+      }
+      nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  nav a {
+         
+          text-decoration: none;
+          font-size: 18px;
+          display: block;
+          padding: 10px 27px;
+          text-align: center;
+          margin: 0;
+  
+      }
+}
+
+@media(min-width:960px) and (max-width:1260px)
+{
+    .header{
+  
+        height: 14%;
+        width: 100%;
+        background-image: linear-gradient(rgb(116, 47, 15),lightgray);
+    }
+    #logo{
+
+        height: 50px;
+        width: 50px;
+    }
+    #name{
+    
+        font-size: 28px;
+    }   
+.search{
+
+    align-items: right;
+}   
+#search input[type=text]{
+
+    height: 30px;
+    width: 200px;    
+}
+#search button{
+
+    margin: -4px;
+    height: 30px;
+    width: 30px;
+}
+    #mybtn{
+
+        height: 30px; 
+        width: 0px;
+    }
+
+    .cart{
+        padding-left: 25px;
+        align-self: center;
+    }
+
+    .categories{
+
+        height: 50px;
+        width: 100%;
+        background-color:lightgray;
+        overflow: hidden;
+      
+    }
+    .categories{
+
+        height: 50px;
+        width: 100%;
+        background-color:lightgray;
+        overflow: hidden;
+      }
+      nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  nav a {
+         
+          text-decoration: none;
+          font-size: 19px;
+          display: block;
+          padding: 10px 27px;
+          text-align: center;
+          margin: 0;
+  
+      }
+}
